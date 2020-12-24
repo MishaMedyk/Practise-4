@@ -1,0 +1,51 @@
+.item-list{
+    display:block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.item-name, .item-amount, .item-button{
+    float: left;
+    margin-bottom: 10px;
+}
+
+.item-name{
+    width: 20%;
+    font-size: 21px;
+}
+
+.item-amount{
+    width: 5%;
+    font-size: 21px;
+}
+
+.item-button button{
+    background-color: blue;
+    color: white;
+    border: 3px solid blue;
+    border-radius: 0px;
+}
+
+.item-button button:hover{
+    background-color: darkred;
+    border: 1px solid darkred;
+    border-radius: 30px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.row{
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    padding:10px;
+    background: rgb(16 0 255);
+}
+
+.col-md-6{
+    display:block;
+    float: left;
+    width: 50%;
+}
